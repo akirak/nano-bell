@@ -88,6 +88,7 @@
       (setq frame (frame-parameter frame 'parent-frame)))
     root))
 
+;;;###autoload
 (defun nano-bell ()
   "Set the header line to 'nano-critical face and fade it to fully transparent.
 Animation lasts for NANO-BELL-DURATION using NANO-BELL-STEPS steps."
